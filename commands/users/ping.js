@@ -1,10 +1,13 @@
 module.exports.run = (client, message, args) => {
-  message.channel.send("Pong!");
+  
+  message.delete({timeout:3000})
+  message.reply(`ton ping est de ${Date.now() - message.createdTimestamp}ms.`).then(message => {message.delete({ timeout: 3000})}).catch()
+
 };
 
 module.exports.help = {
   name: "ping",
-  aliases: ['ping','aide'],
+  aliases: [],
   description: "Renvoie ton ping avec une petite réaction selon ta personne!",
   cooldown: 10,
   usage: '',

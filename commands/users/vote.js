@@ -154,11 +154,11 @@ module.exports.help = {
     cooldown: 10,
     args: true,
     adminCommand: true,
-    permissions: [
+    permissions: false /*[
             "563780818233720832",
             "695022628653629511",
             "695318063570092153",
             "695333782844211341"
-        ]
+        ]*/
 
 }

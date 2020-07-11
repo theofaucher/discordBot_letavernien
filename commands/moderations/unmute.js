@@ -25,6 +25,6 @@ module.exports.help = {
   cooldown: 10,
   usage: '<@user>',
   adminCommand: false,
-  permissions: ['563780818233720832','563780818233720832'],
+  permissions: ['563780818233720832','695022628653629511'],
   args: true
 };

@@ -4,6 +4,7 @@ const { readdirSync } = require("fs");
 
 const client =  new Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
 ["commands", "cooldowns"].forEach(x => client[x] = new Collection());
+client.queue = new Map();
 client.prefix = process.env.prefix
 
 const loadCommands = (dir = "./commands/") => {

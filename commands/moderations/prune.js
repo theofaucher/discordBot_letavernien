@@ -30,9 +30,9 @@ module.exports.help = {
   name: "prune",
   aliases: ['prune'],
   description: "Purge un nombre de message spécifié sur un utilisateur spécifié",
-  cooldown: 10,
+  cooldown: 5,
   usage: '<@user> <nbr_messages>',
   adminCommand: false,
-  permissions: ['563780818233720832','563780818233720832'],
+  permissions: ['563780818233720832','695022628653629511'],
   args: true
 };

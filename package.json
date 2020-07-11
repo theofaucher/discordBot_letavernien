@@ -13,6 +13,12 @@
   "dependencies": {
     "discord.js": "^12.1.1",
     "dotenv": "^8.2.0",
-    "nodemon": "^2.0.4"
+    "fetch": "^1.1.0",
+    "ffmpeg": "0.0.4",
+    "nodemon": "^2.0.4",
+    "opusscript": "0.0.7",
+    "ytdl-core": "^2.1.7",
+    "ytdl-core-discord": "^1.2.0",
+    "ytsearcher": "^1.2.2"
   }
 }
