@@ -1,0 +1,29 @@
+{
+  "name": "tempo_channel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "repository": "git@github.com:theofaucher/discord_bot_la_taverne.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Théo FAUCHER",
+  "license": "ISC",
+  "dependencies": {
+    "deepl-translator": "^1.2.1",
+    "discord-dynamic-messages": "^4.0.0",
+    "discord.js": "^12.5.1",
+    "discord.js-collector": "^1.8.7",
+    "dotenv": "^8.2.0",
+    "fetch": "^1.1.0",
+    "ffmpeg": "0.0.4",
+    "ibm-watson": "^6.0.0",
+    "nodemon": "^2.0.7",
+    "opusscript": "0.0.7",
+    "translate": "^1.1.2",
+    "watson-developer-cloud": "^4.0.1",
+    "ytdl-core": "^4.2.1",
+    "ytsearcher": "^1.2.3"
+  }
+}
